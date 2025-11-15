@@ -1,0 +1,2 @@
+To setup NSL, all you need to do is run BAT(or PS1) file if you on Windows or SH if you Linux.
+For documentation, go to Docs folder and for example program, go to Example folder.

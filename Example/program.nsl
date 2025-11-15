@@ -1,0 +1,9 @@
+PROC functionName Ime
+    ECHO Pozdrav, v%Ime!
+END
+
+CALL functionName "Petar"
+CALL functionName "Sorny"
+
+VAR Number 5
+

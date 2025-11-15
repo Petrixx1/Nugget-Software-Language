@@ -1,0 +1,35 @@
+ECHO Welcome to my NSL quiz!
+VAR Bodovi 0
+
+# Pitanje 1
+READ "What is capital of Croatia?" Odgovor1
+IF v%Odgovor1 == "Zagreb" THEN
+    ECHO Correct! You got one more score.
+    VAR Bodovi v%Bodovi+1
+ELSE
+    ECHO Wrong! Correct answer is Zagreb.
+ENDIF
+
+# Pitanje 2
+READ "How many legs dogs got?" Odgovor2
+IF v%Odgovor2 == 4 THEN
+    ECHO Correct! You got one more score.
+    VAR Bodovi v%Bodovi+1
+ELSE
+    ECHO Wrong! Correct answer is 4.
+ENDIF
+
+# Pitanje 3
+READ "What color is made by mixing yellow and blue?" Odgovor3
+IF v%Odgovor3 == "Zelena" THEN
+    ECHO Correct! You got one more score.
+    VAR Bodovi v%Bodovi+1
+ELSE
+    ECHO Wrong! Correct answer is green.
+ENDIF
+
+# Rezultat
+ECHO Your final score is v%Bodovi by 3.
+ECHO Thanks for playing!
+
+BREAK
